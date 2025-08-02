@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+        <title>Multilingual website</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <a class="close-btn" href="#">
+            <img src="assets/cross.svg" alt="Назад">
+        </a>
+        <div class="content">
+            <p class="main-phrase" data-lang="Get Unlimited <br>Access">Get Unlimited <br>Access</p>
+            <div class="cards">
+                <div class="card">
+                    <p class="card-text" data-lang="Unlimited Art <br>Creation">Unlimited Art <br>Creation</p>
+                </div>
+                <div class="card">
+                    <p class="card-text" data-lang="Exclusive <br>Styles">Exclusive <br>Styles</p>
+                </div>
+                <div class="card">
+                    <p class="card-text" data-lang="Magic Avatars <br>With 20% Off">Magic Avatars <br>With 20% Off</p>
+                </div>
+            </div>
+            <div class="access-blocks">
+                <div class="access-blocks__item selected">
+                    <div class="best-offer">
+                        <p data-lang="BEST OFFER">BEST OFFER</p>
+                    </div>
+                    <div class="access-blocks__item--left">
+                        <p class="period-text" data-lang="YEARLY ACCESS">YEARLY ACCESS</p>
+                        <p class="price-per-year" data-lang="Just {{price}} per year" data-price="$39.99">Just {{price}} per year</p>
+                    </div>
+                    <div class="access-blocks__item--right">
+                        <p class="price-per-week" data-lang="{{price}} <br>per week" data-price="$0.48">{{price}} <br>per week</p>
+                    </div>
+                </div>
+                <div class="access-blocks__item">
+                    <div class="access-blocks__item--left">
+                        <p class="period-text" data-lang="WEEKLY ACCESS">WEEKLY ACCESS</p>
+                    </div>
+                    <div class="access-blocks__item--right">
+                        <p class="price-per-week" data-lang="{{price}} <br>per week" data-price="$6.99">{{price}} <br>per week</p>
+                    </div>
+                </div>
+            </div>
+            <button class="continue-btn" data-lang="Continue">Continue</button>
+            <div class="utils">
+                <a href="#" data-lang="Terms of Use">Terms of Use</a>
+                <a href="#" data-lang="Privacy Policy">Privacy Policy</a>
+                <a href="#" data-lang="Restore">Restore</a>
+            </div>
+        </div>
+        <script defer src="scripts/script.js"></script>
+    </body>
+</html>
